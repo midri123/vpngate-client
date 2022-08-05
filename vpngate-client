@@ -307,10 +307,6 @@ class VPN:
 
         self.log.info("Would you like to use this VPN (No = CTRL+C, " +
                       "Yes = Any Key)?")
-        try:
-            input()
-        except KeyboardInterrupt:
-            return False
 
         return True
 
