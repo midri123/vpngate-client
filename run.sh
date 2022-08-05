@@ -5,7 +5,7 @@
 
  sleep 1m
 # Start the second process
-/honeygain -tou-accept &
+/app/honeygain -tou-accept &
   
 # Wait for any process to exit
 wait -n
